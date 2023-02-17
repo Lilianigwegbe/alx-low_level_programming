@@ -16,6 +16,7 @@ int main(void)
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 	int len = strlen(alphabets);
 	int i;
+
 	for (i = 0; i < len; i++)
 	{
 		putchar(alphabets[i]);
