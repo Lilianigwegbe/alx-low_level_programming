@@ -1,23 +1,18 @@
+#include <unistd.h>
 #include <stdio.h>
-#include <string.h>
 /**
  * main - Entry point
- *
- * This is a simple C code,
- * it prints all alphabets in lowercase,
- * but in reverse order,
- * using the putchar function.
- *
- * Return: 0
-*/
+ * Description: prints lowercase alphabets in reverse
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
-	int len = strlen(alphabets);
-	int i;
+	int a;
 
-	for (i = len; i >= 0; i--)
-	for (i = (len - 1); i >= 0; i--)
+	for (a = 'z'; a >= 'a'; a--)
 	{
-		putchar(alphabets[i]);
+		putchar(a);
 	}
+	putchar('\n');
+	return (0);
+}
