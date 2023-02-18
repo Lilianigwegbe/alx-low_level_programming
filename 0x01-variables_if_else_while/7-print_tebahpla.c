@@ -4,11 +4,6 @@
 /**
  * main - Entry point
  *
- * This is a simple C code,
- * it prints all alphabets in lowercase,
- * but in reverse order,
- * using the putchar function.
- *
  * Return: 0
 */
 
