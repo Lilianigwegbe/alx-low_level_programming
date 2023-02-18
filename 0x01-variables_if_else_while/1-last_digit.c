@@ -1,10 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/**
- * main - Entry point
- *
- * Assign a random number to the variable 
+ 
  *
  * Return: Exit code 0
  * Return: Success Code 0
