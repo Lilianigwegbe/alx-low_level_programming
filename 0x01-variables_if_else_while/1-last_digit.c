@@ -4,10 +4,7 @@
 /**
  * main - Entry point
  *
- * This is a C program.
- * It generates a random integer,
- * and prints to stdout,
- * the last digit of the number
+ * Assign a random number to the variable 
  *
  * Return: Exit code 0
  * Return: Success Code 0
