@@ -1,12 +1,10 @@
-#include' main.h'
-|include <unistd.h>
+# include "main.h"
 /**
- * _putchar - writes the character c to stdout
- * c: the character to print
+ * main - Entry point
  *
- * Return: on success 1
- * */
-int _putchar(char c)
+ * A program that prints putchar followed by a new line
+ *
+ * Return: 0
+*/
+int main(void)
 {
-	return (write(1, &c, 1));
-}

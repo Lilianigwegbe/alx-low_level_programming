@@ -1,5 +1,5 @@
-#ifndefine 'main.h'
-#define 'main.h'
+#ifndefine 'main-h'
+#define 'main-h'
 
 int _putchar(char c);
 void print_alphabet(void);
