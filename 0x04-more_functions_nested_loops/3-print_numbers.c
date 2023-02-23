@@ -1,14 +1,19 @@
-#include "main.h"
+# include "main.h"
 
 /**
-* print_numbers - checks for checks for a digit (0 through 9).
+* print_numbers - Entry point
 *
-* Return: Always 0.
+* This is a simple C code,
+* It prints all numbers from 0 - 9.
+*
+* Return: nothing
 */
 void print_numbers(void)
 {
-int c;
-for (c = 48; c < 58; c++)
+int u;
+for (u = '0'; u <= '9'; u++)
 {
-_putchar(c);
+_putchar(u);
+}
+_putchar('\n');
 }
