@@ -1,25 +1,32 @@
-int _putchar(char c);
+#ifndef main_h
 
-void print_alphabet(void);
+#define main_h
 
-void print_alphabet_x10(void);
+extern int _putchar(char c);
 
-int _islower(int c);
+extern void print_alphabet(void);
 
-int _isalpha(int c);
+extern void print_alphabet_x10(void);
 
-int print_sign(int n);
+extern int _islower(int c);
 
-int _abs(int);
+extern int _isalpha(int c);
 
-int print_last_digit(int);
+extern int print_sign(int n);
 
-void jack_bauer(void);
-void times_table(void);
+extern int _abs(int);
 
-int add(int, int);
+extern int print_last_digit(int);
 
-void print_to_98(int n);
+extern void jack_bauer(void);
 
-void print_times_table(int n);
+extern void times_table(void);
+
+extern int add(int, int);
+
+extern void print_to_98(int n);
+
+extern void print_times_table(int n);
+
+#endif
 
