@@ -1,14 +1,22 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * puts2 - Entry point
+ * @str: String to be printed.
  *
- * Return: Always 0.
+ * This program prints every other character
+ * of a string from a character pointer.
+ *
+ * return: Nothing
  */
-int main(void)
+void puts2(char *str)
 {
-char *str;
-str = "0123456789";
-puts2(str);
-return (0);
+int c = 0;
+while (*(str + c) != '\0')
+{
+if (c % 2 == 0)
+_putchar(*(str + c));
+c++;
+}
+_putchar('\n');
 }
