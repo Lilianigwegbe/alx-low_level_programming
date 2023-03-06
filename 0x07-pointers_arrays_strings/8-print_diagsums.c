@@ -2,18 +2,19 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - a function that prints the sum of the two diagonals
- * of a square matrix of integers.
- * @a: a square matrix of integers
- * @size: an input integer with the size of matrix
- * Return: Nothing
+ * print_diagsums - prints the sum of the two diagonals
+ * of a square matrix of integers
+ * @a: array to be printed
+ * @size: size of a
  */
 void print_diagsums(int *a, int size)
 {
-int i = 0, max = size * size, sum1 = 0, sum2 = 0;
-for (; i < max; i += size + 1)
-sum1 += a[i];
-for (i = size - 1; i < max - 1; i += size - 1)
-sum2 += a[i];
-printf("%d, %d\n", sum1, sum2);
+int i, j, sum = 0;
+for (i = 0; i < size; i++)
+sum += *(a + i * size + i);
+printf("%i, ", sum);
+sum = 0;
+for (j = 0; j < size; j++)
+sum += *(a + size * (j + 1) - (j + 1));
+printf("%i\n", sum);
 }
