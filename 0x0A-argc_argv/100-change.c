@@ -55,7 +55,7 @@ j++;
 else
 {
 coins += d;
-cents -= (d * c[j]);
+cents -= (d *c[j]);
 }
 }
 }
@@ -66,4 +66,4 @@ printf("%i\n", coins);
 else
 printf("%s\n", "Error");
 return (ex);
-} 
+}
