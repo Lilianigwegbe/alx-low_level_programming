@@ -9,6 +9,7 @@
  *
  * Return: 1 if number, 0 if not
  */
+
 int _isnumber(char *s)
 {
 int i, check, d;
@@ -32,6 +33,7 @@ return (check);
  *
  * Return: pointer
  */
+
 char *_callocX(unsigned int nmemb)
 {
 unsigned int i;
