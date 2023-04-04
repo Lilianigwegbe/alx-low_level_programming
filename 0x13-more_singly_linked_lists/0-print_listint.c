@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "lists.h"
 
-
-/** A function that prints all the elements of a singly linked list
+/**
+ * print_listint - Prints all the elements of a singly linked list
  * @h: pointer to the head of list
  *
  * Return: Number of nodes
@@ -18,4 +18,3 @@ nodes++;
 }
 return (nodes);
 }
-
