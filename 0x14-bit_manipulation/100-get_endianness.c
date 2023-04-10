@@ -8,12 +8,7 @@
  */
 int get_endianness(void)
 {
-int a = 1;
-char *c = (char *)&a;
-int endian;
-if (*c)
-endian = 1;
-else
-endian = 0;
-return (endian);
+unsigned int a = 1;
+char *b = (char *)&a;
+return (*b);
 }
