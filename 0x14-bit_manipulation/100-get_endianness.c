@@ -9,9 +9,9 @@
 int get_endianness(void)
 {
 int a = 1;
-char *b = (char *)&a;
+char *c = (char *)&a;
 int endian;
-if (*b)
+if (*c)
 endian = 1;
 else
 endian = 0;
