@@ -26,13 +26,14 @@ buff = malloc(sizeof(char) * letters);
 if (!buff)
 return (0);
 op = open(filename, O_RDONLY);
-if (op == -1) 
+if (op == -1)
 {
 free(buff);
 return (0);
 }
 scan = read(op, buff, letters);
-if (scan == -1) {
+if (scan == -1)
+{
 free(buff);
 close(op);
 return (0);
